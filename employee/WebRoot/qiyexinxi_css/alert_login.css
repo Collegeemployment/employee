@@ -1,0 +1,174 @@
+/*锟斤拷锟街诧拷*/
+
+.login-bgPop {
+	display: none;
+	position: fixed;
+	z-index: 129;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+}
+
+
+/*锟斤拷锟斤拷锟斤拷*/
+
+.login-pop {
+	display: none;
+	width: 390px;
+	/*height: 420px;*/
+	color: #b2b2b2;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 130;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 3px 18px rgba(100, 0, 0, .5);
+	overflow: auto;
+}
+
+.login-pop-top {
+	width: 100%;
+	overflow: auto;
+}
+
+.login-pop-top span {
+	cursor: pointer;
+	font-weight: bold;
+	display: black
+}
+
+.login-close {
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	filter: alpha(opacity=20);
+	opacity: .2
+}
+
+.login-close:focus,
+.login-close:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	filter: alpha(opacity=50);
+	opacity: .5
+}
+
+.login-prompt {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.prompt {
+	min-height: 18px;
+	max-width: none;
+	overflow: hidden;
+	font-size: 12px;
+	color: red;
+}
+
+
+/*
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color:#5ecfba;
+}
+.modal-header .close{margin-top:-2px}
+#loginModal .login-col-right{width:388px;height:360px;color:#b2b2b2}
+.login-modal-title{margin:0;line-height:1.42857143}
+.login-modal-body{position:relative;padding-top:15px;height:110px;}
+.login-modal-header {
+    min-height: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color:#5ecfba;
+}
+
+    
+.login-input-txt {
+    padding: 2px 18px;
+}
+.login-modal-title{
+	margin:0;
+	line-height:1.42857143;
+	padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: inherit;
+    font-weight: 500;
+    color: inherit;
+    }
+section {
+	margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    display: block;
+}
+.fr{float:right;color: #5ecfba;}
+
+#btnRegister{color: #ff9600;}
+.login-btn-micv5{background-color:#5ecfba;color:#fff;padding:8px 12px}
+.login-globalLoginBtn{display:block;
+    height: 38px;
+    width: 90%;
+    margin-left: 18px;
+    line-height: 38px;
+    padding: 0 18px;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .9;
+    filter: alpha(opacity=90);
+    background:#ff9600;
+    }
+.login-lb-line{width: 100%; margin-top: 15px; position: relative;}
+.login-lb-line:first-child{margin-top: 0;}
+.login-lb-line-input{width: 90%; height: 40px; line-height: 40px; padding: 0 15px; background: #fff; border: solid 1px #cdcdcd; border-radius: 5px; outline: 0;}
+.login-lb-line-input:focus{border-color: #ff9600; box-shadow: 0 0 5px 1px #fdf0de;}
+
+.login-lb-line .login-baseBtn{width: 80px; font-size: 13px; color: #ff9600; border: solid 1px #ff9600; position: absolute; top: 0; right: 0;}
+.login-globalLoginBtn:hover{color: #fff; background-color: #d75d31;}
+
+.other-threeLogin{position:absolute;margin-left: 19px;bottom:15px}
+.other-threeLogin span{color:#b3c3c0;float:left;font-size:14px}
+.other-threeLogin a{display:inline-block;width:20px;height:20px;background:url(../../images/user/login_img.png) no-repeat;vertical-align:middle;margin-left:15px;cursor:pointer}
+.other-threeLogin .nqq{background-position:0 0}
+.other-threeLogin .nqq:hover{background-position:0 -20px}
+.other-threeLogin .nwx{background-position:-20px 0}
+.other-threeLogin .nwx:hover{background-position:-20px -20px}
+.other-threeLogin .nwb{background-position:-40px 0}
+.other-threeLogin .nwb:hover{background-position:-40px -20px}
+
+.login-lb-head{  padding-top: 5px; font-size: 0;  position: absolute; top: 0; left: 0;}
+.login-lb-head > a{line-height: 43px; padding: 0 10px; margin-left: 55px; color: #333; font-size: 15px; border-bottom: solid 2px transparent; display: inline-block;}
+.login-lb-head > a:hover{color: #ff9600;}
+.login-lb-head > a.login-cur{color: #333; font-weight: bold; border-bottom-color: #ff9600;}
+.login-lb-head span{line-height: 45px; font-size: 18px; margin-left: 30px;}
+.prompt-hr{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+*/

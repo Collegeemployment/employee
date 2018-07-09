@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8"></constant>
+	<constant name="struts.custom.i18n.resources" value="resource"></constant>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	
+	<package name="struts" extends="struts-default,json-default">
+		<action name="loginAction" class="loginAction">
+			<result name="success">/gradPage.jsp</result>
+			<!-- <result type="json">
+				<param name="root">result</param>
+			</result> -->
+			<result name="input">/studLogin.jsp</result>
+		</action>
+		
+		<action name="lookResumeAction" class="lookResumeAction">
+			<result name="success">/resume.jsp</result>
+		</action>
+		
+		<action name="updateResumeInfoAction" class="updateResumeInfoAction">
+			<result type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>    

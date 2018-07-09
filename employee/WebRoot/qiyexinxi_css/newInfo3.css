@@ -1,0 +1,187 @@
+.classify3 {
+	background: url("../../images/user/fa_09.png") no-repeat scroll left center;
+	color: #804000 !important;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding-left: 1px;
+}
+
+label{
+   /* padding:0 20px 0 25px;  */
+   width: 25%; 
+   padding-left: 25px; 
+   padding-right: 5px; 
+   margin: 7px 0; 
+   color: #333; 
+   display: inline-block; 
+   vertical-align: top; 
+   position: relative;
+}
+
+/*
+.detailsOops {
+    width: 601px; 
+    border: solid 1px #939393; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px #666; 
+    position: fixed; 
+    z-index: 10001;
+}
+*/
+.detailsOops2{
+    border: solid 1px #939393; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px #666; 
+    position: fixed; 
+    z-index: 10001;
+    background: #fff none repeat scroll 0 0;
+    min-height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px 20px;
+}
+
+.detailsOops3{
+    border: solid 1px #939393; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px #666; 
+    position: fixed; 
+    z-index: 10001;
+    background: #fff none repeat scroll 0 0;
+    min-height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px 20px;
+}
+/*
+#closeColumn{
+	height:40px;
+	border-bottom: 0px solid #999;
+	background: #f6f6f6;
+	width: 600px;
+	margin-left: -20px;
+	border-bottom: solid 1px #e5e5e5;
+}
+*/
+#closeColumn2{
+	height:40px;
+	border-bottom: 0px solid #999;
+	background: #f6f6f6;
+	width: 657px;
+	margin-left: -20px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+#updateSubModuleList{
+	 min-width: 100px; 
+	 height: 32px; 
+	 line-height: 32px; 
+	 padding: 0 20px; 
+	 margin-left: 20px; 
+	 color: #fff; 
+	 font-size: 15px; 
+	 background: #ab822d; 
+	 border-radius: 5px; 
+	 display: inline-block; 
+	 text-align: center;
+}
+.updateSuccess{
+     min-width: 160%; 
+     height: 32px; 
+     line-height: 32px; 
+     padding: 0 20px; 
+     margin-left: 20px; 
+     color: #fff; 
+     font-size: 15px; 
+     background: #ab822d; 
+     border-radius: 5px; 
+     display: inline-block; 
+     text-align: center;
+}
+
+.back-to-nav2 {
+    width: 75px;
+    height: 301px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    padding: 0 0px;
+    background-color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.fw{
+    width:75px; 
+    margin-left: 580px;
+}
+.fw a{
+    width: 75px; 
+    height: 76px; 
+    display: block; 
+    padding: 14px 0 0 0; 
+    text-align: center; 
+    border: 1px solid #e0e0e0; 
+    margin-bottom: -1px; 
+    color: #333;
+}
+
+.fw .fw-icon1 {
+    width: 68px;
+    height: 30px;
+    padding: 30px 0 0 1px;
+    background: url(../../images/user/a4.png) no-repeat 8px -16px;
+    display: block;
+}
+.fw .fw-icon2 {
+    width: 58px;
+    height: 30px;
+    background: url(../../images/user/a4.png) no-repeat 8px -94px;
+    display: block;
+}
+.fw .fw-icon3 {
+    width: 58px;
+    /*  height: 30px;  */
+    height:60px;
+    background: url(../../images/user/a4.png) no-repeat 8px -172px;
+    display: block;
+}
+.fw .fw-icon4 {
+    width: 58px;
+    height: 30px;
+    background: url(../../images/user/a4.png) no-repeat 6px -248px;
+    display: block;
+}
+
+.fw a:hover{ color: #fff; background: #ed9d00;}
+.fw a:hover .fw-icon1{ background:url(../../images/user/a5.png) no-repeat 6px -16px;}
+.fw a:hover .fw-icon2{ background:url(../../images/user/a5.png) no-repeat 6px -94px;}
+.fw a:hover .fw-icon3{ background:url(../../images/user/a5.png) no-repeat 6px -172px;}
+.fw a:hover .fw-icon4{ background:url(../../images/user/a5.png) no-repeat 6px -248px;}
+.fw .fw-close{ height: 31px; padding: 0 20px;}
+.fw .fw-icon5{ width: 30px; height: 29px; background: url(../../images/user/a6.png) no-repeat; display: block;}
+.fw .fw-close:hover{ background: #fff;}
+
+.menuhide{
+	background: url(../../images/user/hide.png) no-repeat 0px 0px;
+	display: block;
+	position: fixed;
+	bottom: 420px;
+	right: 0px;
+	height: 30px;
+	width: 30px;
+	z-index: 10;
+}
+.menushow{
+	background: url(../../images/user/show.png) no-repeat 0px 0px;
+	display: block;
+	position: fixed;
+	bottom: 420px;
+	right: 0px;
+	height: 30px;
+	width: 30px;
+	z-index: 10;
+}

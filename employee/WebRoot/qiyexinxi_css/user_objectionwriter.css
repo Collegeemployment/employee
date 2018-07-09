@@ -1,0 +1,65 @@
+#objection tr th {
+    text-align: center;
+    background-color: #eae3d8;
+    border: 1px solid #efefef;
+    width: 300px;
+    height: 35px;
+    padding-right: 5px;
+}
+
+.obj{
+   width:400px;
+   height:20px;
+}
+
+#obj_but{
+	 min-width: 100px; 
+	 height: 32px; 
+	 line-height: 32px; 
+	 padding: 0 20px; 
+	 margin-left: 250px; 
+	 color: #fff; 
+	 font-size: 15px; 
+	 background: #ab822d; 
+	 border-radius: 5px; 
+	 display: inline-block; 
+	 text-align: center;
+}
+
+.detailsOops4{
+    border: solid 1px #939393; 
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px #666; 
+    position: fixed; 
+    z-index: 10001;
+    background: #fff none repeat scroll 0 0;
+    min-height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px 20px;
+}
+
+#closeColumn3{
+	height:40px;
+	border-bottom: 0px solid #999;
+	background: #f6f6f6;
+	width: 658px;
+	margin-left: -20px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+.updateMessage{
+ min-width: 160%; height: 32px; line-height: 32px; padding: 0 20px; margin-left: 20px; color: #fff; font-size: 15px; background: #ab822d; border-radius: 5px; display: inline-block; text-align: center;
+}
+
+.objItem{
+   /* float:left;*/
+    display: inline-block;
+    position: relative;
+    padding-left: 63px;
+}
+
+.updateMessageNew{
+ min-width: 160%; height: 32px; line-height: 32px; padding: 0 20px; margin-left: 20px; color: #fff; font-size: 15px; background: #ab822d; border-radius: 5px; display: inline-block; text-align: center;
+}

@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0; list-style-type: none; line-height: 1.5; font-family: "寰蒋闆呴粦"; box-sizing: border-box;}
+html, body{height: 100%;}
+a{text-decoration: none; cursor: pointer;}
+b{font-weight: normal;}
+/*
+table{width: 100%; table-layout: fixed; border-collapse: collapse;}
+*/
+button, input[type=submit]{border: 0; outline: 0; cursor: pointer;}
+input:-webkit-autofill{-webkit-box-shadow: 0 0 0 1000px #fff inset;}
+button:active {-ms-background-position-x: 1px; -ms-background-position-y: 1px;}
+select{padding: 3px 5px;}
+textarea{resize: none;}
+
+.flex{display: -webkit-box; display: -webkit-flex; display: -moz-box; display: -moz-flex; display: -ms-flexbox; display: flex; align-items: center; justify-content: center;}
+.ellipsis{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.clear:before, .clear:after{content: ""; display: table;}.clear:after{clear: both;}
+.fl{float: left;}.fr{float: right;}
