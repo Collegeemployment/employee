@@ -439,7 +439,7 @@ a:hover {
 					</ul>
 				</div></li> -->
 			<li class="item "><a
-				href="jobHelp.jsp" class="item-link">企业信息</a>
+				href="jiuyeliebiao.jsp" class="item-link">企业信息</a>
 				<div class="son-nav">
 					<ul class="son-list">
 						<li class="son-item"><a class="son-link" target="_blank"

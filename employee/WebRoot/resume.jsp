@@ -18,6 +18,15 @@
 			#basedetail-all{
 				display:none;
 			}
+			#base_area_index{
+				z-index:3;
+			}
+			#first{
+				z-index:100;
+			}
+			#two{
+				z-index:2;
+			}
 		</style>
 		
 		<script type="text/javascript">
@@ -26,12 +35,51 @@
 					$("#basedetail").hide();
 					$("#basedetail-all").show();
 				});
-				
+				$(".li").click(function(){
+					$(".li").removeClass("on");
+					$(this).addClass("on");
+					$("#status").val($(this).html());
+					$("#uls").hide();
+				})
 				$("#basedetail_cancel").click(function(){
 					$("#basedetail-all").hide();
 					$("#basedetail").show();
 				});
+				  //选择查询的类型弹出框
+			    $('#arrows').click(function (e) {
+			        if ($('#uls').is(':hidden')) {
+			            $("#uls").show();
+			        } else {
+			            $('#uls').hide();
+			        }
+			        $(document).one('click', function () {
+			           /*  $('#indexList').blur();
+			            $('#indexList').click(); */
+			            $('#uls').hide();
+			        })
+			        e.stopPropagation();
+			    });
+			    $('#uls').on('click', function (e) {
+			        e.stopPropagation();
+			    })
+
+			/* 	$("#arrows").on('click',function(){ $("#uls").toggle(); }) */
 				
+				 $("#base_sex_0").click(function(){
+					 $(".Fm .nan em").css({"background-position":"-20px -80px"})
+					 $(".Fm .nv em").css({"background-position":"-40px -80px"}) 
+					$(this).css({"background":"#FF9F20"})
+					$("#base_sex_1").css({"background":"white","color":"black"})
+					$("#base_sex_0").css({"color":"white"})
+					
+				});
+				 $("#base_sex_1").click(function(){
+					 $(".Fm .nan em").css({"background-position":"0 -80px"})
+					 $(".Fm .nv em").css({"background-position":"-60px -80px"})
+					$(this).css({"background":"#FF9F20"})
+					$("#base_sex_0").css({"background":"white","color":"black"})
+					$("#base_sex_1").css({"color":"white"})
+				}) ;
 				$("#basedetail_save").click(function(){
 					var name = $("#base_name").val();
 					var gender = $("#gender").val();
@@ -219,11 +267,11 @@
 								<label>性别</label><i>*</i>
 								<div class="btox" id="base_sex_div">
 									<input type="hidden" id="gender" value="<s:property value="#session.resume.gender"/>">
-									<span class="btn nan on" id="base_sex_0">
-										<em class="icons"></em>男
+									<span class="btn nan on" id="base_sex_0" >
+										<em class="icons" style="background-position:-20px -80px;"></em>男
 									</span>
 									<span class="btn nv " id="base_sex_1">
-										<em	class="icons"></em>女
+										<em	class="icons" style="background-position:-40px -80px;"></em>女
 									</span>
 								</div>
 								<input id="base_sex" type="hidden" value="0">
@@ -244,14 +292,14 @@
 									<em class="icons"></em>
 								</div>
 							</div>
-							<div class="c c4" float-index="false">
+							<div class="c c4" float-index="false" id="first">
 								<label>求职状态</label><i>*</i>
 								<div class="sh">
 									<div class="txt pointer" id="base_csituation_list" float-on="false">
 										<input class="ef" type="text" readonly="readonly" id="status" value="<s:property value="#session.resume.status"/>" input-type="selectionlist">
-										<span class="ic i_arrow"></span>
-										<div class="ul">
-											<span data-value="0" class="li" title="目前正在找工作">目前正在找工作</span>
+										<span class="ic i_arrow" id="arrows"></span>
+										<div class="ul" id="uls">
+											<span data-value="0" class="li " title="目前正在找工作">目前正在找工作</span>
 											<span data-value="3" class="li on" title="观望有好机会会考虑">观望有好机会会考虑</span>
 											<span data-value="4" class="li" title="我目前不想换工作">我目前不想换工作</span>
 										</div>
@@ -305,7 +353,7 @@
 									<em class="icons"></em>
 								</div>
 							</div>
-							<div class="c c4">
+							<div class="c c4" id="two">
 								<label>年龄</label><i>*</i>
 								<div class="sh">
 									<div class="txt">
@@ -521,7 +569,7 @@
 			</div>
 		</div>
 		</div>
-<%-- 		<script type="text/javascript" src="third_js/pointtrack2.js"></script>
+<script type="text/javascript" src="third_js/pointtrack2.js"></script>
 		
 		<script type="text/javascript" src="third_js/jquery.form.min.js"></script>
 		<script type="text/javascript" src="third_js/auth.js"></script>
@@ -552,7 +600,7 @@
 		<script type="text/javascript" src="third_js/d_nation.js"></script>
 		<script type="text/javascript" src="third_js/pointtrack_resume.js"></script>
 		<script type="text/javascript" src="third_js/selectionlist.js"></script>
-		<script type="text/javascript" src="third_js/resume.js"></script> --%>
+		<script type="text/javascript" src="third_js/resume.js"></script>		
 	</body>
 
 </html>
